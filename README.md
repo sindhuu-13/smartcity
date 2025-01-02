@@ -105,9 +105,11 @@
             <h3>My Portfolio</h3>
         </div>
 
-        <div class="box" onclick="window.location.href='coursereflections.html'">
+        <div class="box" onclick="window.location.href='coursereflections.html'"> 
             <h3>Course Reflection</h3>
         </div>
+        <div class="box" onclick="window.location.href='labreflections.html'"> 
+            <h3>Lab Reflection</h3>
         </div>
     </section>
 
