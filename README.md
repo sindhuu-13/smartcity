@@ -113,14 +113,6 @@
             <h3>Team Info</h3>
         </div>
 
-         <div class="box" onclick="window.location.href='Project distribution.html'">
-            <h3>Project distribution</h3>
-        </div>
-
-        <div class="box" onclick="window.location.href='https://github.com/ErannaTP/Portfolio/blob/main/business-models.html'">
-            <h3>Business Models</h3>
-        </div>
-
         <div class="box" onclick="window.location.href='https://github.com/ErannaTP/Portfolio/blob/main/project-reflection.html'">
             <h3>Project Reflection</h3>
         </div>
