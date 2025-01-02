@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Smart City Design Project</title>
+    <title>Design and Analysis of Algorithms</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
     <style>
         body {
@@ -95,7 +95,7 @@
     <div class="background"></div>
 
     <header>
-        <h1>Welcome to Smart City Design Project</h1>
+        <h1>Design and Analysis of Algorithms</h1>
     </header>
 
     <section>
@@ -107,6 +107,10 @@
 
         <div class="box" onclick="window.location.href='coursereflections.html'">
             <h3>Course Reflection</h3>
+        </div>
+
+         <div class="box" onclick="window.location.href='myportfolio.html'">
+            <h3>Project Details</h3>
         </div>
     </section>
 
