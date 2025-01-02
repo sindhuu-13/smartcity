@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Course Reflections</title>
+    <title>Computer Science Concepts</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -18,20 +18,19 @@
             padding: 20px 30px;
             border-radius: 10px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            max-width: 800px;
+            max-width: 900px;
             text-align: left;
         }
-        h1, h2, h3 {
+        h1, h2 {
             color: #333;
         }
-        p {
-            line-height: 1.6;
+        p, ul {
+            line-height: 1.8;
             color: #555;
         }
         ul {
             margin: 10px 0;
             padding-left: 20px;
-            color: #555;
         }
         blockquote {
             font-style: italic;
@@ -44,37 +43,98 @@
 </head>
 <body>
     <div class="content">
-        <h1>Course Reflections</h1>
+        <h1>Computer Science Concepts</h1>
 
         <h2>1. Kinds of Problems in Nature</h2>
-        <p><strong>Iteration</strong>, <strong>Recursion</strong>, and <strong>Backtracking</strong> are common approaches to solving problems in programming.</p>
+        <p><strong>Iteration</strong>: Problems solved by repeatedly performing actions using loops.</p>
+        <ul>
+            <li><strong>Factorial Calculation</strong>: Iteratively multiply numbers up to <em>n</em>.</li>
+            <li><strong>Finding Maximum in an Array</strong>: Traverse each element and track the highest value.</li>
+            <li><strong>Summing Elements</strong>: Add array elements in a loop.</li>
+        </ul>
+        <p><strong>Recursion</strong>: Problems are solved by solving smaller sub-problems of the same type.</p>
+        <ul>
+            <li><strong>Fibonacci Sequence</strong>: Each term is the sum of the two preceding terms.</li>
+            <li><strong>Tower of Hanoi</strong>: Move disks between pegs using recursive calls.</li>
+            <li><strong>Tree Traversals</strong>: Traverse nodes using recursive calls for left and right subtrees.</li>
+        </ul>
+        <p><strong>Backtracking</strong>: Explore all potential solutions and revert ("backtrack") when a path leads to failure.</p>
+        <ul>
+            <li><strong>N-Queens Problem</strong>: Place queens on a chessboard such that no two threaten each other.</li>
+            <li><strong>Sudoku Solver</strong>: Place numbers on a grid following the rules.</li>
+            <li><strong>Maze Solving</strong>: Explore paths until the exit is found.</li>
+        </ul>
 
         <h2>2. Space and Time Efficiency</h2>
         <p><strong>Time Efficiency</strong> determines execution speed, while <strong>Space Efficiency</strong> measures memory usage. They are vital for optimal system performance.</p>
-        <p><strong>Classes of Problems</strong>: P, NP, and orders of growth like O(1), O(n), and O(log n).</p>
+        <p><strong>Classes of Problems</strong>:</p>
+        <ul>
+            <li><strong>P (Polynomial Time)</strong>: Problems solvable efficiently, e.g., sorting arrays.</li>
+            <li><strong>NP (Non-deterministic Polynomial Time)</strong>: Solutions can be verified efficiently but finding them may not be efficient, e.g., traveling salesman problem.</li>
+        </ul>
+        <p><strong>Orders of Growth</strong>:</p>
+        <ul>
+            <li><strong>O(1)</strong>: Constant time; independent of input size.</li>
+            <li><strong>O(log n)</strong>: Logarithmic time; reduces problem size significantly at each step.</li>
+            <li><strong>O(n)</strong>: Linear time; grows proportionally with input size.</li>
+            <li><strong>O(n²)</strong>: Quadratic time; nested loops often cause this.</li>
+        </ul>
 
         <h2>3. Design Principles</h2>
         <ul>
-            <li>Divide and Conquer</li>
-            <li>Greedy Algorithms</li>
-            <li>Dynamic Programming</li>
-            <li>Backtracking</li>
+            <li><strong>Divide and Conquer</strong>: Break problems into smaller sub-problems, solve them, and combine results. Example: Merge Sort.</li>
+            <li><strong>Greedy Algorithms</strong>: Make the best immediate choice, hoping for global optimum. Example: Kruskal’s Algorithm.</li>
+            <li><strong>Dynamic Programming</strong>: Solve overlapping sub-problems by storing intermediate results. Example: Fibonacci Sequence using memoization.</li>
+            <li><strong>Backtracking</strong>: Systematically search for solutions and backtrack when necessary. Example: Solving a crossword puzzle.</li>
         </ul>
 
         <h2>4. Hierarchical Data and Tree Structures</h2>
-        <p>Trees like BST, AVL, and Tries optimize searches and data organization.</p>
+        <p>Hierarchical data is represented using trees for efficient search and organization.</p>
+        <ul>
+            <li><strong>Binary Search Tree (BST)</strong>: Efficient searches with sorted data.</li>
+            <li><strong>AVL Tree</strong>: Self-balancing tree, ensuring logarithmic height.</li>
+            <li><strong>Red-Black Tree</strong>: Balanced tree with a color rule to limit height.</li>
+            <li><strong>Heap</strong>: Optimized for min/max retrieval.</li>
+            <li><strong>Trie</strong>: Specialized for prefix-based search (e.g., auto-complete).</li>
+            <li><strong>2-3 Tree</strong>: A balanced multi-way search tree.</li>
+        </ul>
 
         <h2>5. Array Query Algorithms</h2>
-        <p>Efficient query algorithms like Prefix Sum, Segment Trees, and Fenwick Trees are applied in analytics and gaming.</p>
+        <p><strong>Why They Are Needed</strong>: Handle range queries and updates efficiently.</p>
+        <ul>
+            <li><strong>Prefix Sum</strong>: Precomputes cumulative sums for range queries.</li>
+            <li><strong>Segment Tree</strong>: Handles dynamic range queries like sum or max.</li>
+            <li><strong>Fenwick Tree (Binary Indexed Tree)</strong>: Optimizes prefix sums with updates.</li>
+        </ul>
+        <p><strong>Applications</strong>: Used in analytics dashboards, gaming leaderboards, and data science.</p>
 
         <h2>6. Trees vs. Graphs</h2>
-        <p><strong>Trees</strong>: Hierarchical, acyclic. Applications: File systems.<br>
-        <strong>Graphs</strong>: May contain cycles. Applications: Networks.</p>
+        <p><strong>Trees</strong>: Hierarchical, acyclic structures.</p>
+        <ul>
+            <li>Applications: File systems, organizational charts.</li>
+        </ul>
+        <p><strong>Graphs</strong>: May contain cycles, and are more general than trees.</p>
+        <ul>
+            <li>Applications: Social networks, recommendation systems, navigation.</li>
+        </ul>
 
         <h2>7. Sorting and Searching Algorithms</h2>
-        <p><strong>Sorting</strong>: Bubble, Merge, Quick Sort.<br>
-        <strong>Searching</strong>: Linear, Binary Search.</p>
-        <p>Applications: E-commerce, database indexing.</p>
+        <p><strong>Sorting</strong>:</p>
+        <ul>
+            <li><strong>Bubble Sort</strong>: Compares adjacent elements (O(n²)).</li>
+            <li><strong>Merge Sort</strong>: Divide-and-conquer for efficient sorting (O(n log n)).</li>
+            <li><strong>Quick Sort</strong>: Partition-based efficient sort (O(n log n)).</li>
+        </ul>
+        <p><strong>Searching</strong>:</p>
+        <ul>
+            <li><strong>Linear Search</strong>: Sequential, slow for large datasets (O(n)).</li>
+            <li><strong>Binary Search</strong>: Divide-and-conquer, works on sorted data (O(log n)).</li>
+        </ul>
+        <p><strong>Real-World Connections</strong>:</p>
+        <ul>
+            <li>Sorting: Organizing product prices in e-commerce.</li>
+            <li>Searching: Database indexing, search engine queries.</li>
+        </ul>
 
         <blockquote>“The only way to do great work is to love what you do.” – Steve Jobs</blockquote>
     </div>
