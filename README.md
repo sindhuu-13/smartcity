@@ -112,6 +112,10 @@
          <div class="box" onclick="window.location.href='teaminfo.html'"> 
             <h3>Team Information</h3>
         </div>
+
+         <div class="box" onclick="window.location.href='teaminfo.html'"> 
+            <h3>Project Distribution</h3>
+        </div>
     </section>
 
 </body>
