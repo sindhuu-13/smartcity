@@ -116,6 +116,11 @@
          <div class="box" onclick="window.location.href='teamdis.html'"> 
             <h3>Project Distribution</h3>
         </div>
+
+          <div class="box" onclick="window.location.href='teamdis.html'"> 
+            <h3>Lab Reflections</h3>
+        </div>
+        
     </section>
 
 </body>
