@@ -101,7 +101,7 @@
     <section>
         <h2>Navigate Through</h2>
 
-        <div class="box" onclick="window.location.href='myportfolio.html'">
+        <div class="box" onclick="window.location.href='https://github.com/sindhuu-13/smartcity/commit/0a963d831476e895052264b7e82ba220760fcd97'">
             <h3>My Portfolio</h3>
         </div>
 
