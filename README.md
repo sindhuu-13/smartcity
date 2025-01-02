@@ -108,15 +108,6 @@
         <div class="box" onclick="window.location.href='coursereflections.html'">
             <h3>Course Reflection</h3>
         </div>
-
-        <div class="box" onclick="window.location.href='Our Team.html'">
-            <h3>Team Info</h3>
-        </div>
-
-        <div class="box" onclick="window.location.href='https://github.com/ErannaTP/Portfolio/blob/main/project-reflection.html'">
-            <h3>Project Reflection</h3>
-        </div>
-
     </section>
 
 </body>
