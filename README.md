@@ -108,7 +108,7 @@
         <div class="box" onclick="window.location.href='coursereflections.html'"> 
             <h3>Course Reflection</h3>
         </div>
-        <div class="box" onclick="window.location.href='labreflections'"> 
+        <div class="box" onclick="window.location.href='labreflections.html'"> 
             <h3>Lab Reflection</h3>
         </div>
     </section>
