@@ -121,7 +121,7 @@
             <h3>Lab Reflections</h3>
         </div>
 
-          <div class="box" onclick="window.location.href=''"> 
+          <div class="box" onclick="window.location.href='codesnippets.html'"> 
             <h3>Code Snippets</h3>
         </div>
         
